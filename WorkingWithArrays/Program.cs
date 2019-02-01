@@ -10,6 +10,11 @@ namespace WorkingWithArrays
     {
         static void Main(string[] args)
         {
+            var qwe = new ArrayOfInteger();
+            qwe.Add(0, 10);
+            qwe.Add(1, 20);
+            qwe.Add(2, 30);
+            qwe.Print();
         }
     }
 }
